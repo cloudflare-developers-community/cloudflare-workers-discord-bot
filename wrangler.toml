@@ -1,0 +1,7 @@
+name = "cloudflare-workers-discord-bot"
+type = "webpack"
+account_id = "5a883b414d4090a1442b20361f3c43a9"
+workers_dev = true
+webpack_config = "webpack.config.js"
+
+vars = { HOST = "cloudflare-workers-discord-bot.workers.dev", PUBLIC_KEY = "1b780f7f71ac39645d44cc4dce8fa78c860d0157cb0912d755b7a7cb95394532", APPLICATION_ID = "799627301675466772" }
