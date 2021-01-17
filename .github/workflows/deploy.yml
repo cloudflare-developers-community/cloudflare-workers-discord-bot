@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Publish
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+      - name: Setup Discord
+        run: curl https://cloudflare-workers-discord-bot.gregbrimble.workers.dev/setup
