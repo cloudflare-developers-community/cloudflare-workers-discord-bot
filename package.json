@@ -24,6 +24,7 @@
     "webpack-cli": "4.3.1"
   },
   "dependencies": {
+    "@glenstack/cf-workers-algolia-search": "1.0.2",
     "@glenstack/cf-workers-discord-bot": "1.1.0"
   }
 }
