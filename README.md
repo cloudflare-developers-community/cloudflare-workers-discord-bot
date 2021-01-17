@@ -24,3 +24,11 @@ Embed a script from [cloudflareworkers.com](https://cloudflareworkers.com).
 | ------- | ---------------------------------------------- |
 | `url`   | The URL of the Worker on cloudflareworkers.com |
 | `title` | An optional title for the Worker script        |
+
+#### `/docs`
+
+Search the [Cloudflare Workers documentation](https://developers.cloudflare.com/workers/).
+
+| Option | Description     |
+| ------ | --------------- |
+| `term` | The search term |
