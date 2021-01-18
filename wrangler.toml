@@ -9,3 +9,6 @@ vars = { PUBLIC_KEY = "1b780f7f71ac39645d44cc4dce8fa78c860d0157cb0912d755b7a7cb9
 kv_namespaces = [
 	 { binding = "KV", id = "6d01bc2fde944702aed90de4f4ef5ae8" }
 ]
+
+[triggers]
+crons = ["*/15 * * * *"]
