@@ -59,7 +59,7 @@ ${script}
         embeds: [
           {
             title,
-            url: url.toString(),
+            url: url,
             footer: {
               text: "cloudflareworkers.com",
             },

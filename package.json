@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@glenstack/cf-workers-algolia-search": "1.0.2",
-    "@glenstack/cf-workers-discord-bot": "1.1.0"
+    "@glenstack/cf-workers-discord-bot": "1.1.0",
+    "rss-parser": "3.10.0"
   }
 }
